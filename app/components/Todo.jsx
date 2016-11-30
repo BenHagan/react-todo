@@ -1,16 +1,17 @@
 var React = require('react');
 var PropTypes = React.PropTypes;
 
-var TodoApp = React.createClass({
+var Todo = React.createClass({
 
   render: function() {
+    var {id, text} = this.props;
     return (
       <div>
-        TodoApp.jsx
+      {id}.  {text}
       </div>
     );
   }
 
 });
 
-module.exports = TodoApp;
+module.exports = Todo;
