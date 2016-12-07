@@ -51,7 +51,7 @@ describe('TodoAPI', () => {
     })
   });
 
-  describe.only('filterTodos', () => {
+  describe('filterTodos', () => {
     var todos = [{
       id: 1,
       text: 'Some text',
