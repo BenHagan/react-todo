@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "karma start",
+    "test-debug": "karma start --single-run=false",
     "start": "node server.js"
   },
   "author": "Ben Hagan",
